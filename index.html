@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <!-- icon plugns fontawosome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- styleSheet  Css-->
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <header>
+            <h1>CRUD System</h1>
+            <h3>create and delete and read and update</h3>
+        </header>
+        <div>
+            <input type="text" class="form-control" placeholder="discription" id="disc">
+            <div class="price">
+                <input type="number" placeholder="price" id="price">
+                <input type="number" placeholder="dicound" id="discound">
+            </div>
+            <div class="hero">
+                <button class="btn btn-primary w-50" id="main_btn" onclick="add()">insert data</button>
+            </div>
+        </div>
+        
+        <br>
+        <table class="table table-secondary text-center">
+            <thead>
+                <tr>
+                    <th>Num</th>
+                    <th>discraption</th>
+                    <th>price</th>
+                    <th>final price</th>
+                    <th>diccound</th>
+                    <th>delete</th>
+                    <th>update</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableData">
+                
+            </tbody>
+        </table>
+       
+    </section>
+
+    <!-- bootstarp Javascript effect -->
+     <script src="javascript/bootstrap.bundle.min.js"></script>
+     <script src="javascript/main.js"></script>
+</body>
+</html>

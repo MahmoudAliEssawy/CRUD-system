@@ -1,0 +1,38 @@
+header{
+    text-align:center;
+}
+
+body{
+    background-color:rgba(7, 6, 6, 0.8);
+    color:white;
+}
+
+.price{
+    display:flex;
+    justify-content:center;
+    margin:5px;
+}
+.price input{
+    flex:1;
+    background-color:#003;
+    border-radius:5px;
+    outline:none;
+    color:white;
+    border:1px solid white;
+    padding:5px 8px;
+
+}
+
+small{
+    background-color:red;
+    padding:5px 10px; 
+
+}
+#total::before{
+     content: 'Total: ';  
+     font-size:1.2em;
+}
+
+.hero{
+    text-align: end;
+}
